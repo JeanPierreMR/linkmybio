@@ -82,7 +82,7 @@ See you can add any style to your own project. These are only ideas.
 - [x] **FORK** THIS REPO!
 - [x] Your project will read the links.yaml file and generate the webpage to start serving it as desired.
 - [x] Project MUST compile
-- [ ] Update README.md to add a section `Usage`, where you will place the commands in order to run your bio.py
+- [x] Update README.md to add a section `Usage`, where you will place the commands in order to run your bio.py
 - [x] Add Style, suggestions "bootstrap.css"
 - [ ] Deliver it via `git tags`
 - [x] Make sure to use/develop/fill the empty files/folders provided: `static/`, `templates/`, `bio.py` , `requirements.txt`.
@@ -91,7 +91,7 @@ See you can add any style to your own project. These are only ideas.
 # Usage
 
 Execute in folder
-> pip3 install -r requirements.txt
+> pip3 install -r requirements.txt\
 > python3 bio.py
 
 

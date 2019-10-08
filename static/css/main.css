@@ -1,7 +1,6 @@
 html {
     background-image: linear-gradient(rgba(24, 0, 133, 0.835), rgba(5, 103, 160, 0.835));
     background-attachment: fixed;
-
 }
 body{
     text-align: center;
@@ -28,11 +27,6 @@ h2{
     clear: both;
 
 } 
-
-
-
-
-      
 #link{
     margin-left: auto;
     margin-right: auto;
