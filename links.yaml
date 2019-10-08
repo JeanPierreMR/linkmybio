@@ -1,0 +1,34 @@
+profile:
+  name: Jean Mejicanos
+  shortbio: "Caminando hacia un futuro mejor.
+  Computer Scientist"
+  picture: portrait.jpg
+
+
+links:
+     facebook:
+        enable: True
+        link: https://www.facebook.com/JeanPMejicanos
+        description: Facebook
+        logo: none
+     Instagram:
+        enable: True
+        link: https://www.instagram.com/jp_mejicanos
+        description: Instagram
+        logo: none
+     YouTube Inspiration Video:
+        enable: True
+        link: https://youtu.be/jG7dSXcfVqE
+        description: YouTube Inspiration Video
+        logo: yt.png
+     YouTube Inspiration Video 2:
+        enable: True
+        link: https://youtu.be/6qiX0vfluL4
+        description: YouTube Inspiration Video 2
+        logo: yt.png
+     YouTube Cool Video:
+        enable: True
+        link: https://youtu.be/lX44CAz-JhU
+        description: YouTube Cool Video
+        logo: yt.png
+    

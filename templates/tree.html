@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+     <title>Link Tree</title>
+     <!-- <meta http-equiv="refresh" content="0; url=http://example.com/" /> -->
+</head>
+<body>
+    <div id="bio">
+            <img src="/static/{{profile['picture']}}" id="profile_pic">
+            <h2 id ="title">{{profile["name"]}}</h2>
+            <h2>{{profile["shortbio"]}}</h2>
+            
+
+    </div>
+    <div id="page-wrap">
+        {% for link_name in links %}
+            {% set link = links[link_name] %}
+            {% if link['enable']: %}
+                <a href={{link['link']}} id = "link">
+                    {% if link['logo'] != "none": %}
+                        <img src="/static/{{link['logo']}}" id="pic">
+                    {% endif %}
+                    <span>{{link['description']}}</span>
+                </a>
+                <br>
+            {% endif %}
+        {% endfor %}
+    </div>
+</body>
+
+</html>
